@@ -23,7 +23,8 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin
 
 Carry = AB + ACin + BCin
 
-image
+![image](https://github.com/user-attachments/assets/b5b00395-c97e-49f5-a91f-0d37e4858200)
+
 
 Figure -1 FULL ADDER
 
@@ -31,7 +32,8 @@ Full Subtractor
 
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
 
-image
+![image](https://github.com/user-attachments/assets/c0837f83-4040-4a2f-81b9-9f9553176f71)
+
 
 Diff = A ⊕ B ⊕ Bin
 
@@ -41,11 +43,12 @@ Truthtable
 
 FULL ADDER:
 
-DE E-4 truthtable
+![image](https://github.com/user-attachments/assets/7b7ed79c-5338-471a-bc74-a93217313008)
+
 
 FULL SUBTRACTOR:
 
-DE E-4 subtractor truth table
+![image](https://github.com/user-attachments/assets/7f69d51e-022d-47d3-8ec2-17d38e1b5da0)
 
 Procedure
 
@@ -93,19 +96,19 @@ endmodule
 
 RTL Schematic
 
-318332382-c01e6c3c-d648-4bad-8a98-66d93df13f1a
+![image](https://github.com/user-attachments/assets/28ac8dc7-525b-476e-925e-14a5a5807477)
 
 Output Timing Waveform
 
 FULL ADDER
 
-318332443-3411cbc7-4f76-4664-a513-e348a9880eff
+![image](https://github.com/user-attachments/assets/dcb42931-3738-4983-9527-6dfd584cf387)
+
 
 FULL SUBTRACTOR
 
-318332487-1cc068c4-6398-4a52-bae8-39c6657c0a9a
+![image](https://github.com/user-attachments/assets/36865b98-8fc9-4e50-b6b3-77803405774a)
 
 Result:
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
-
